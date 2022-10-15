@@ -13,6 +13,12 @@
         <h1 class="title display-5"> 메인 페이지 </h1>
     </div>
 
+    <div class="row">
+        <div class="col-12 text-center">
+            <span th:text="${sessionId}"></span>
+        </div>
+    </div>
+
     <div class="links">
 
         <div class="link" sec:authorize="!authenticated">

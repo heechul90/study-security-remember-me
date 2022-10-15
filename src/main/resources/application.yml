@@ -22,6 +22,9 @@ spring:
 
 server:
   port: 9000
+  servlet:
+    session:
+      timeout: 60s
 
 logging:
   level:
